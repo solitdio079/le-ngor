@@ -1,5 +1,5 @@
 {
-  "name": "sites-project",
+  "name": "le-ngor-menu",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -7,7 +7,10 @@
   },
   "scripts": {
     "dev": "vinext dev",
+    "dev:netlify": "vite --config vite.netlify.config.ts",
     "build": "vinext build",
+    "build:netlify": "vite build --config vite.netlify.config.ts",
+    "preview:netlify": "vite preview --config vite.netlify.config.ts",
     "start": "vinext start",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next"
   },
