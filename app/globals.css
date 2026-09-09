@@ -1,6 +1,6 @@
 :root {
-  --paper: #f1ede3;
-  --sheet: #fffdf8;
+  --paper: #ffffff;
+  --sheet: #ffffff;
   --ink: #171715;
   --muted: #6f6960;
   --charcoal: #595856;
@@ -15,9 +15,7 @@ html { scroll-behavior: smooth; }
 body {
   margin: 0;
   color: var(--ink);
-  background:
-    repeating-linear-gradient(90deg, transparent 0 31px, rgba(54, 49, 42, .04) 31px 32px),
-    var(--paper);
+  background: var(--paper);
   font-family: Avenir, Montserrat, "Trebuchet MS", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -27,7 +25,7 @@ button { font: inherit; }
 main {
   width: min(1120px, calc(100% - 32px));
   margin: 28px auto;
-  background: rgba(255, 253, 248, .97);
+  background: #ffffff;
   border: 1px solid var(--line);
   box-shadow: 0 28px 80px rgba(33, 28, 23, .13);
   overflow: clip;
@@ -57,9 +55,7 @@ main {
   min-height: 390px;
   padding: 48px 58px 54px;
   border-top: 1px solid var(--line);
-  background:
-    radial-gradient(circle at 80% 45%, rgba(173, 103, 57, .08), transparent 27%),
-    linear-gradient(135deg, #fffdf8 0%, #f7f0e5 100%);
+  background: #ffffff;
 }
 .intro-copy { position: relative; z-index: 1; }
 .kicker {
@@ -142,7 +138,7 @@ h1 {
   overflow-x: auto;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-  background: rgba(255, 253, 248, .94);
+  background: rgba(255, 255, 255, .96);
   backdrop-filter: blur(12px);
   scrollbar-width: none;
 }
@@ -204,7 +200,7 @@ h1 {
   padding: 26px 30px;
   color: #302d29;
   border: 1px solid #c8b59f;
-  background: #f5eadc;
+  background: #ffffff;
 }
 .child-menu::before {
   position: absolute;
@@ -280,7 +276,7 @@ footer {
   gap: 22px;
   padding: 28px 42px;
   border-top: 1px solid var(--line);
-  background: #ece6db;
+  background: #ffffff;
 }
 footer img { width: 190px; height: 62px; object-fit: contain; object-position: left center; }
 footer p { margin: 0; color: var(--muted); font-size: 9px; letter-spacing: .16em; text-align: center; text-transform: uppercase; }
